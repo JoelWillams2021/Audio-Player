@@ -25,7 +25,7 @@
         <div class= "col-xl-12 col-md-11 col-sm-11">
             <div class="song-name-header"> File Name:</div>
             <div class="song-name-text"> D4DJ Song </div>
-            <input type="range" class="volume-slider" id="customRange1" onchange="increaseVolume()">
+            <input type="range" class="volume-slider" id="customRange1" oninput="increaseVolume()">
             <img class = "responsive-image " src="images/volume-med.png" alt="volume-indicator">
         </div>
     </div>
@@ -34,7 +34,7 @@
     <div class="container">
         <div class="row">
             <div class= "col-xl-12 col-md-11 col-sm-11">
-                <input type="range" id="customRange2" min = "0.5" step = "0.5" max="2" onchange="increaseSpeed()">
+                <input type="range" id="customRange2" min = "0.5" step = "0.5" max="2" oninput="increaseSpeed()">
                 <img class = "responsive-image slow-image" src="images/slow-icon.png" alt="speed-indicator">
                 <div class="slider-value"> </div>
             </div>
@@ -42,7 +42,7 @@
     </div>
 
     <div class="text-center">
-        <input type="range" class="volume-slider" id="customRange3" onchange="seekThrough()">
+        <input type="range" class="volume-slider" id="customRange3" oninput="seekThrough()">
     </div>
 
     <label for="customRange3" class="form-label" id="durationLabel"> </label>
