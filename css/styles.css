@@ -1,0 +1,77 @@
+body{
+    background-color: #FFFDD0;
+}
+
+.page-title{
+    padding-top: 2%;
+   
+}
+
+.image{
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    max-width: 85px;
+}
+
+#customRange3{
+    width: 75%;
+}
+
+#durationLabel{
+    position: relative;
+    padding-left: 84.5%;
+    top: -3px;
+}
+
+#currentDurationLabel{
+    position: relative;
+    padding-right: 55%;
+    padding-left: 13%;
+    top: -34px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    #customRange1{
+        width: 21%;
+        margin-left: 35%;
+    }
+
+    #customRange2{
+        width: 21%;
+        margin-left: 35%;
+    }
+    .slider-value{
+        margin-top: -4.5%;
+        margin-left: 35%;
+    }
+
+} 
+
+
+.responsive-image{
+    max-width: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.slider-value{
+    margin-top: .5%;
+}
+
+.song-name-header{
+    margin-left: 77%;
+    font-weight: 800;
+}
+
+.song-name-text{
+    margin-left: 77%;
+
+}
+
+
+
+
+
+
