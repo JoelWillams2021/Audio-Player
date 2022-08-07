@@ -1,5 +1,6 @@
 const Media = new Audio ("sounds/D4DJ Song.mp3");
 var sliderValue = Media.playbackRate;
+var w = document.documentElement.clientWidth || window.innerWidth;
 
 
 function setUp(){
@@ -9,7 +10,12 @@ function setUp(){
     document.getElementById("customRange3").value = Media.currentTime;
     sliderValue = Media.playbackRate;
     document.querySelector(".slider-value").innerHTML = sliderValue + "x";
-    
+    if (w <= 768) {
+        document.getElementById("customRange1").disabled = true;
+    } else {
+        document.getElementById("customRange1").disabled = false;
+    }
+
 }
 
 
