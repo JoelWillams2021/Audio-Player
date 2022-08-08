@@ -10,7 +10,7 @@ function setUp(){
     document.getElementById("customRange3").value = Media.currentTime;
     sliderValue = Media.playbackRate;
     document.querySelector(".slider-value").innerHTML = sliderValue + "x";
-    if (w <= 768) {
+    if (w <= 1024) {
         document.getElementById("customRange1").disabled = true;
     } else {
         document.getElementById("customRange1").disabled = false;
